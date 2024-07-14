@@ -10,9 +10,6 @@ const db = new Database('app.db');
 //     );
 // `;
 
-
-// exec is used for create table statements
-
 // db.exec(query);
 
 // const data = [
@@ -22,10 +19,6 @@ const db = new Database('app.db');
 // ];
 
 // const insertData = db.prepare('INSERT INTO users (name, username) VALUES (?, ?)');
-
-
-// run is used when you dont really expect a return result - you dont
-// need the data given back - done for inserts
 
 // data.forEach((user) => {
 //     insertData.run(user.name, user.username);
