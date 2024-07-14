@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "how to use sqlite with nodejs",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "tushdev.co",
