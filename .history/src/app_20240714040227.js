@@ -46,7 +46,7 @@ const db = new Database('app.db');
 
 // db.close();
 
-import express from 'express';
+import express from ('express');
 
 const app = express()
 const port = 3000
@@ -54,7 +54,6 @@ const port = 3000
 app.get('/', function (req, res) {
     const query = `SELECT * FROM users`;
     const users = db.prepare(query).all();
-    res.json({ users : users})
 })
 
 app.listen(port, () => {
