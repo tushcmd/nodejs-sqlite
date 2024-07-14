@@ -28,7 +28,6 @@ const db = new Database('app.db');
 const query = `SELECT * FROM users`;
 const users = db.prepare(query).all();
 
-// console.table(users);
-console.log(users);
+console.table(users);
 
 db.close();
